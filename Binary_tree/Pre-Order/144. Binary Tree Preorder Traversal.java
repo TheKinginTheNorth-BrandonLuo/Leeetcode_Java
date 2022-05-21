@@ -13,7 +13,7 @@
  *     }
  * }
  */
-class Solution {
+class iterativeSolution {
     public List<Integer> preorderTraversal(TreeNode root) {
         if (root == null) {
             return new ArrayList<>();
@@ -33,5 +33,25 @@ class Solution {
             }
         }
         return res;
+    }
+}
+
+
+class RecursiveSolution {
+    public List<Integer> preorderTraversal(TreeNode root) {
+        if (root == null) {
+            return new ArrayList<>();
+        }
+        List<Integer> res = new ArrayList<>();
+        dfs(root, res);
+        return res;
+    }
+    
+    private void dfs(TreeNode root, List<Integer> res) {
+        if (root != null) {
+            res.add(root.val);
+            dfs(root.left, res);
+            dfs(root.right, res);
+        }
     }
 }
