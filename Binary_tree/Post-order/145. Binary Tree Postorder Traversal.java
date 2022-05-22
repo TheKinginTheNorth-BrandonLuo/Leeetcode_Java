@@ -13,7 +13,7 @@
  *     }
  * }
  */
-class Solution {
+class iterativeSolution {
     public List<Integer> postorderTraversal(TreeNode root) {
         if (root == null) {
             return new ArrayList<>();
@@ -33,5 +33,25 @@ class Solution {
         }
         
         return res;
+    }
+}
+
+ */
+class recursiveSolution {
+    public List<Integer> postorderTraversal(TreeNode root) {
+        List<Integer> res = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
+        
+        dfs(root, res);
+        return res;
+    }
+    
+    void dfs(TreeNode root, List<Integer> res) {
+        if (root == null) {
+            return;
+        }
+        dfs(root.left, res);
+        dfs(root.right, res);
+        res.add(root.val);
     }
 }
