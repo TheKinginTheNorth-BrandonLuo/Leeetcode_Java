@@ -7,3 +7,6 @@ In 40 we need avoid duplicate cases. That's the biggest difference which need to
 
 ## 47. Permutations II and 46
 The biggest difference is also removing duplicates. We need to use same way as above, ie, after sorting array(most important), we need to check if i > 0 and nums[i] == nums[i - 1], also boolean[i] == false
+
+## 282. Expression Add Operators
+Trick of reset--StringBuilder.setLength(previous recorded length) to clear string so far and do next operation
