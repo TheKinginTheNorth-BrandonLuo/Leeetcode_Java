@@ -10,3 +10,10 @@ The biggest difference is also removing duplicates. We need to use same way as a
 
 ## 282. Expression Add Operators
 Trick of reset--StringBuilder.setLength(previous recorded length) to clear string so far and do next operation
+
+## How to sort int[] array in descending order?
+int[] sortedArr = Arrays.stream(arr)
+                .boxed()
+                .sorted(Collections.reverseOrder())
+                .mapToInt(Integer::intValue)
+                .toArray();
