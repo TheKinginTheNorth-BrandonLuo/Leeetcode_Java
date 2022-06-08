@@ -15,7 +15,7 @@ class Solution {
                         if (nums[low] + nums[high] == sum) {
                             res.add(Arrays.asList(nums[i], nums[j], nums[low], nums[high]));
                             while (low < high && nums[low] == nums[low + 1]) {
-                            low ++;
+                                low ++;
                             }
                             while (low < high && nums[high] == nums[high - 1]) {
                                 high --;
@@ -30,10 +30,10 @@ class Solution {
                             high --;
                         }
                     }
-                    }
                 }
             }
         }
-        return res;
+     }
+     return res;
     }
 }
