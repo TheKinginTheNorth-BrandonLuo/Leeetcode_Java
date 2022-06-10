@@ -18,7 +18,7 @@ class Solution {
         for (int j = 2; j < p.length() + 1; j ++) {
             dp[0][j] = p.charAt(j - 1) == '*' && dp[0][j - 2];
         }
-        System.out.println(dp[0][2]);
+//         System.out.println(dp[0][2]);
         
         for (int i = 1; i < s.length() + 1; i ++) {
             for (int j = 1; j < p.length() + 1; j ++) {
