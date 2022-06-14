@@ -24,3 +24,6 @@ There are 2! + 2! + 2!, 6 permutation. The 2nd must be in range 1 + (permutation
 So the question turn be a smaller problem.
 {2, 4}, find the 2nd permutation. The answer is (4, 2).
 So the final result is (3, 1, 4, 2)
+
+# Check sign of quotient -- 166. Fraction to Recurring Decimal
+String sign = (numerator < 0 == denominator < 0 || numerator == 0) ? "" : "-";
