@@ -8,3 +8,7 @@ String.split(" +"):regular expression. + means at least 1 so in this case " +" m
 # 520. Detect Capital
 Character.isUpperCase(char)
 String.toLowerCase(String s).equals(String y)
+
+# 205. Isomorphic Strings
+Create 256 digit ASCLL int array
+Array index can be characters
