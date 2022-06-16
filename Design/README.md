@@ -9,3 +9,5 @@
 # 225. Implement Stack using Queues
 
 # 232. Implement Queue using Stacks
+
+# 284. Peeking Iterator
