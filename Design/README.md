@@ -15,3 +15,5 @@
 # 295. Find Median from Data Stream
 
 # 297. Serialize and Deserialize Binary Tree
+
+# 380. Insert Delete GetRandom O(1)
