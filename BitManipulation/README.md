@@ -29,3 +29,17 @@ n & n-1 -> 0 0 0 0 0 (& operation will make all the bits to 0, thus its power of
 # 318. Maximum Product of Word Lengths
 
 # 338. Counting Bits
+
+# 389. Find the Difference
+So, here also let's say our character are:
+s = abc
+t = cabx
+
+if we take XOR of every character. all the n character of s "abc" is similar to n character of t "cab". So, they will cancel each other. 
+And we left with our answer.
+
+s =   abc
+t =   cbax
+------------
+ans -> x
+-----------
