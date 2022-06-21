@@ -23,3 +23,5 @@
 # 535. Encode and Decode TinyURL
 
 # 703. Kth Largest Element in a Stream
+
+# 895. Maximum Frequency Stack
