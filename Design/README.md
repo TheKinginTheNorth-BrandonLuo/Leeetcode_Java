@@ -19,3 +19,5 @@
 # 380. Insert Delete GetRandom O(1)
 
 # 528. Random Pick with Weight
+
+# 535. Encode and Decode TinyURL
