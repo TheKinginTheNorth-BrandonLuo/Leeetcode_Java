@@ -17,3 +17,5 @@
 # 297. Serialize and Deserialize Binary Tree
 
 # 380. Insert Delete GetRandom O(1)
+
+# 528. Random Pick with Weight
