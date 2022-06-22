@@ -27,3 +27,5 @@
 # 895. Maximum Frequency Stack
 
 # 901. Online Stock Span
+
+# 1472. Design Browser History
