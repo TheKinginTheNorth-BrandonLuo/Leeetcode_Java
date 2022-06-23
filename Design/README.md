@@ -29,3 +29,5 @@
 # 901. Online Stock Span
 
 # 1472. Design Browser History
+
+# 1845. Seat Reservation Manager
